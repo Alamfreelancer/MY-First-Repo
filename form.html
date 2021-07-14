@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Practice</title>
+    <script src="https://kit.fontawesome.com/2f3394776e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mypractice.css">
+</head>
+<style>
+    nav {
+        background-color: coral;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-chart a {
+        color: white;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .logo a {
+        color: black;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login-form input,
+    button {
+        font-size: 15px;
+        margin-top: 15px;
+        border: 1px solid lightslategray;
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .login-form button {
+        background-color: orange;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <nav>
+        <span class="nav-chart">
+            <a href="">Home</a>
+            <a href="">Contact us</a>
+            <a href="">Orders</a>
+            <a href="">Portfolio</a>
+        </span>
+        <span class="logo">
+            <a href=""><i class="fas fa-user"></i></a>
+            <a href=""><i class="fas fa-sign-in-alt"></i></a>
+        </span>
+
+    </nav>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>Login</h2>
+            <input type="name" name="name" placeholder="Your first name" id="" required>
+            <input type="name" name="name" placeholder="Your last name" id="" required>
+            <input type="email" name="email" placeholder="E-mail address" id="" required>
+            <input type="password" name="password" placeholder="Password" id="" required>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
